@@ -8,7 +8,7 @@ gem "sqlite3", ">= 2.1"
 gem "puma", ">= 5.0"
 # Redis client + thread-safe connection pool, used for the idempotency-key distributed lock
 gem "redis", "~> 5.3"
-gem "connection_pool", "~> 2.4"
+gem "connection_pool", "~> 3.0"
 
 # Background job processor for simulating async payment settlement
 gem "sidekiq", "~> 7.3"
