@@ -7,7 +7,7 @@ gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Redis client + thread-safe connection pool, used for the idempotency-key distributed lock
-gem "redis", "~> 5.3"
+gem "redis", "~> 6.0"
 gem "connection_pool", "~> 2.4"
 
 # Background job processor for simulating async payment settlement

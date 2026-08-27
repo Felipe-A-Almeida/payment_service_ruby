@@ -214,8 +214,8 @@ GEM
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
-    redis (5.4.1)
-      redis-client (>= 0.22.0)
+    redis (6.0.0)
+      redis-client (= 0.30.1)
     redis-client (0.30.1)
       connection_pool
     regexp_parser (2.12.0)
@@ -314,7 +314,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   puma (>= 5.0)
   rails (~> 8.1.3, >= 8.1.3.1)
-  redis (~> 5.3)
+  redis (~> 6.0)
   rspec-rails (~> 7.1)
   rubocop-rails-omakase
   sidekiq (~> 7.3)
